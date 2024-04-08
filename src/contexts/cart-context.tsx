@@ -2,7 +2,7 @@
 import { ReactNode, createContext, useContext, useState } from "react"
 
 interface CartItem {
-  productId: string
+  productId: number
   quantity: number
 }
 

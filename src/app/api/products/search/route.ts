@@ -4,7 +4,7 @@ import data from "../data.json"
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: { slug: string } },
 ) {
   await new Promise((resolve) => setTimeout(resolve, 1000))
   const { searchParams } = request.nextUrl
