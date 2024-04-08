@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import CartWidget from "./cart-widget"
-import SearchForm from "./search-form"
+import { SearchForm } from "./search-form"
 
 export default function Header() {
   return (
